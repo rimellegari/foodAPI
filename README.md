@@ -1,2 +1,2 @@
 # foodAPI
-Creating a responsive page to search and displa recipes
+Creating a responsive page to search and display recipes
