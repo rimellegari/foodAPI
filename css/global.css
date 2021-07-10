@@ -1,0 +1,33 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+
+
+    /*colors*/
+
+    --white-bg:#f6faff;
+    --light-green: #84a516;
+    --dark-green: #496200;
+    --red: #90081f;
+    --dark-grey: #4d5e77;
+}
+
+body {
+    background-color: var(--white-bg);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*main section*/

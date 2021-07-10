@@ -1,0 +1,108 @@
+
+/* navbar*/
+nav {
+    background: var(--dark-green);
+    height: 5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 0 1rem;
+}
+
+.nav-container ul {
+    display: flex;
+    list-style: none;
+    font-size: 1.8rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+ 
+    justify-content: space-between;
+  
+}
+
+.nav-container ul li{
+    height: 100%;
+ 
+ 
+}
+.nav-container ul li a {
+    color: var(--white-bg);
+    height: 100%;
+    display: block;
+    padding: 1rem;
+   
+}
+nav h1 {
+    font-size: 2.5rem;
+    color: var(--white-bg);
+}
+
+.nav-list li:hover {
+    cursor: pointer;
+    background: var(--light-green);
+}
+
+.toggle-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 3rem;
+    height: 2.1rem;
+}
+
+.toggle-button .bar {
+    height: .3rem;
+    width: 100%;
+    background-color: var(--white-bg);
+    border-radius: .2rem;
+
+}
+
+hr {
+    background-color:  var(--red);
+    height:0.5rem;
+}
+
+
+/*responsiveness*/
+@media (max-width: 600px) {
+
+    .toggle-button {
+        display: flex;
+    }
+    .nav-item {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .nav-item a {
+        padding: .5rem 1rem;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
+
+
+}
