@@ -1,0 +1,72 @@
+/*main section*/
+
+#main-section {
+  
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-bg) ;
+}
+
+.container {
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*form*/
+
+form {
+    width: 90%;
+    max-width: 40rem;
+    margin: 2rem auto;
+    background-color: white;
+}
+
+form input {
+    width: 90%;
+    padding: 1rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    
+    display: inline-block;
+}
+
+form:focus {
+    box-shadow: 0 0 .4rem #84a516;
+}
+
+/*icon*/
+
+form ion-icon {
+    width: 9%;
+    font-size: 2rem;
+    position: relative;
+    left: .3rem;
+    margin: -.5rem;
+}
+
+/*search-results*/
+
+.search-result {
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    gap: 2.5rem;
+    grid-template: auto / repeat(auto-fit, minmax(30rem,1fr));
+}
+
+.item {
+    width: 100%;
+    border-radius: .8rem;
+    overflow: hidden;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    background-color: var(--light-green);
+
+}

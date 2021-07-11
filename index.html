@@ -17,9 +17,9 @@
 <body>
     <!--navbar-->
     <nav class="navbar">
-        <section class="logo">
+        <div class="brand">
             <h1>Recipedia</h1>
-        </section>
+        </div>
         <a href="#" class="toggle-button">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -35,19 +35,20 @@
     </nav>
     <hr>
     <!--main section-->
-    <section>
+    <section id="main-section">
         
         <div class="container">
             <h2 class="logo">Recipe Finder</h2>
             <form action="">
                 <input placeholder="Search your recipe" type="text" name="" id="">
+                <ion-icon name="search-outline"></ion-icon>
             </form>
             <main class="search-result">
                 <section class="item">
                     <img src="./img/jpegg.jpg" alt="" srcset="">
                     <div class="flex-container">
                         <h1 class="recipe-title">This is a recipe</h1>
-                        <a href="#">View Recipe</a>
+                        <a href="#">View Recipe</a>  
                     </div>
                     <p class="item-data">Calories: 120</p>
                 </section>
@@ -70,6 +71,8 @@
             </main>
         </div>
     </section>
-    
+    <!--importing icons-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

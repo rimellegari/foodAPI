@@ -8,8 +8,8 @@ nav {
     align-items: center;
 }
 
-.logo {
-    padding: 0 1rem;
+.brand {
+    padding-left: 1rem;
 }
 
 .nav-container ul {
@@ -68,6 +68,15 @@ nav h1 {
 hr {
     background-color:  var(--red);
     height:0.5rem;
+}
+
+/*sub-logo*/
+
+.logo {
+    text-align: center;
+    font-size: 2.2rem;
+    color: var(--dark-green);
+    margin-bottom: 2rem;
 }
 
 
