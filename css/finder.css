@@ -67,6 +67,51 @@ form ion-icon {
     padding-right: 2rem;
     padding-top: 2rem;
     padding-bottom: 5rem;
+    background-color: #dfe9d0;
+    
+}
+
+.item img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 0.8rem;
+    opacity: 1;
+}
+
+.item .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item .recipe-title {
+    color: var(--dark-green);
+    font-size: 1.8rem;
+
+}
+
+.item .view-recipe{
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 13rem;
+    color: var(--white-bg);
+    background-color: var(--dark-green);
+    border-radius: .4rem;
+    transition: 0.4s;
+    align-self: flex-start;
+    margin-top: .2rem;
+    
+}
+
+.item .view-recipe:hover {
     background-color: var(--light-green);
 
+}
+
+.item .item-data {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: .12rem;
 }
